@@ -4,8 +4,8 @@
             --secondaryTextColor: #636d72;
             --bordeColor: #f1f1f1;
             --lineColor: #d9d9d9;
-            --primaryBackgroundColor: #fff;
-            --secondaryBackgroundColor: #fbfbfb;
+            --primaryBackgroundColor: #000000;
+            --secondaryBackgroundColor: #87b1ac;
             --thirdBackgroundColor: #f5f3fe;
             --primaryIconColor: #614f89;
             --primaryIconColorHover: #2c3950;
@@ -101,6 +101,7 @@
         
         .nav {
             display: flex;
+            align-items: center;
             justify-content: space-between;
             padding: 2rem 0;
         }
@@ -151,11 +152,12 @@
         }
         /* Home Section */
         
-        #home {
+        #homes {
             height: 720px;
             display: grid;
             grid-template-columns: 1fr 1fr;
             align-items: center;
+            padding-left: 8rem;
         }
         
         .home-name {
@@ -350,7 +352,7 @@
         
         footer {
             padding: 4rem 0;
-            background: var(--secondaryBackgroundColor);
+            background: gray;
             text-align: center;
         }
         
