@@ -1,11 +1,11 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
          :root {
-            --primaryTextColor: #667985;
-            --secondaryTextColor: #636d72;
+            --primaryTextColor: #636d72;
+            --secondaryTextColor: #dbd6cb;
             --bordeColor: #f1f1f1;
             --lineColor: #d9d9d9;
             --primaryBackgroundColor: #000000;
-            --secondaryBackgroundColor: #87b1ac;
+            --secondaryBackgroundColor: #2c3950;
             --thirdBackgroundColor: #f5f3fe;
             --primaryIconColor: #614f89;
             --primaryIconColorHover: #2c3950;
@@ -181,7 +181,7 @@
         /* About */
         
         #abouts {
-            background-color: var(--secondaryBackgroundColor);
+            background-color: var(--thirdBackgroundColor);
             padding: var(--sectionPadding);
         }
         
@@ -221,6 +221,7 @@
         
         #skills {
             padding: var(--sectionPadding);
+            background: var(--secondaryBackgroundColor);
         }
         
         .skill {
@@ -262,6 +263,10 @@
         .skill h4 {
             font-weight: 500;
             font-size: 1.05rem;
+        }
+
+        .skill p{
+            margin-top: 1rem;
         }
         
         .skill-title a svg:hover {
@@ -352,7 +357,7 @@
         
         footer {
             padding: 4rem 0;
-            background: gray;
+            background: #ffff;
             text-align: center;
         }
         
